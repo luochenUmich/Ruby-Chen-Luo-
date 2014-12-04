@@ -1,3 +1,4 @@
+#THis class is for adding, viewing, and deleting comments.
 class CommentsController < ApplicationController
 
 	http_basic_authenticate_with name: "dhh", passwork: "secret", only: :destroy
